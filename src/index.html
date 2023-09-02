@@ -7,7 +7,63 @@
     <link rel="stylesheet" href="./styles/main.scss">
   </head>
   <body>
-    <h1>Dia</h1>
+    <header class="header">
+      <div class="header__top">
+        <a href="#" class="logo-link">
+          <img
+            src="./images/logo/dia-logo.svg"
+            alt="logo"
+            class="logo"
+          >
+        </a>
+
+        <nav class="nav__buttons">
+          <a href="#menu" class="icon icon--menu"></a>
+
+          <div>
+            <a href="#" class="hire-us">hire us</a>
+          </div>
+        </nav>
+      </div>
+
+      <div class="header__content">
+        <h1 class="header__title">
+          Strategic Agency
+        </h1>
+
+        <p class="header__paragraph">
+          We believe in the power of bold ideas that can solve business challenges.
+        </p>
+
+        <a href="#" class="header__learn-more-btn">
+          Learn more
+        </a>
+      </div>
+
+      <div class="slider">
+        <div class="slider__image"></div>
+
+        <div class="slider__content">
+          <div class="slider__content-elements">
+            <div class="slider__buttons">
+              <button class="slider__button slider__button-prev" onclick="prevImage()"></button>
+              <button class="slider__button slider__button-next" onclick="nextImage()"></button>
+            </div>
+
+            <p class="slider__intro">intro</p>
+            <p class="slider__subtext">By the same illusion which lifts the horizon.</p>
+          </div>
+
+        </div>
+      </div>
+    </header>
+
+    <aside class="menu"></aside>
+
+    <main class="main"></main>
+
+    <footer class="footer"></footer>
+
     <script type="text/javascript" src="scripts/main.js"></script>
   </body>
 </html>
